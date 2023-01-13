@@ -21,6 +21,7 @@
     "project": ["tsconfig.json"]
   },
   "plugins": ["react", "@typescript-eslint", "prettier", "simple-import-sort"],
+  "ignorePatterns": ["*.js"],
   "rules": {
     "react/prop-types": 0,
     "react/react-in-jsx-scope": 0,

@@ -14,7 +14,17 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "baseUrl": "./src",
+    "baseUrl": "./app/",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@styles/*": ["styles/*"],
+      "@hooks/*": ["hooks/*"],
+      "@providers/*": ["providers/*"],
+      "@services/*": ["services/*"],
+      "@types/*": ["types/*"],
+      "@store/*": ["store/*"],
+      "@utils/*": ["utils/*"]
+    },
     "useDefineForClassFields": true,
     "allowSyntheticDefaultImports": true
   },
