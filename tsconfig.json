@@ -21,9 +21,10 @@
       "@hooks/*": ["hooks/*"],
       "@providers/*": ["providers/*"],
       "@services/*": ["services/*"],
-      "@types/*": ["types/*"],
+      "@models/*": ["models/*"],
       "@store/*": ["store/*"],
-      "@utils/*": ["utils/*"]
+      "@utils/*": ["utils/*"],
+      "@api/*": ["api/*"]
     },
     "useDefineForClassFields": true,
     "allowSyntheticDefaultImports": true
